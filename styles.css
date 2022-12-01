@@ -47,4 +47,18 @@ order: 1;
 flex-grow: 0;
 }
 
+.info2 {
+width: 117px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
 
