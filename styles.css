@@ -16,3 +16,21 @@
     text-align: center;
     color: #6070FF;
 }
+
+.h {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
