@@ -1,5 +1,5 @@
 * {
-  font-family: poppins;
+  font-family: 'poppins';
   color:#172B4D;
 }
 
@@ -61,4 +61,60 @@ order: 0;
 flex-grow: 0;
 }
 
+.twitter {
+position: absolute;
+left: 6.4%;
+right: 88.27%;
+top: 77.81%;
+bottom: 18.88%;
+}
+
+.iinsta {
+position: absolute;
+left: 16.8%;
+right: 81.87%;
+top: 78.85%;
+bottom: 18.87%;
+background: #505F79;
+}
+
+.ninsta{
+position: absolute;
+left: 18.74%;
+right: 77.87%;
+top: 78.32%;
+bottom: 18.87%;
+}
+
+.m {
+position: absolute;
+left: 27.47%;
+right: 67.2%;
+top: 78.15%;
+bottom: 19.21%;
+}
+
+.gh {
+position: absolute;
+left: 38.13%;
+right: 57.07%;
+top: 77.81%;
+bottom: 18.87%;
+}
+
+.peace {
+position: absolute;
+left: 48%;
+right: 48.22%;
+top: 77.81%;
+bottom: 18.87%;
+}
+
+.foot {
+font-style: none;
+}
+
+* {
+    border: 1px solid red;
+}
 
