@@ -110,8 +110,8 @@ top: 77.81%;
 bottom: 18.87%;
 }
 
-.foot {
-font-style: none;
+.dotless {
+list-style-type: none;
 }
 
 * {
