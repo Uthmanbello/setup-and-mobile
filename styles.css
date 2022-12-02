@@ -1,34 +1,32 @@
 * {
   font-family: poppins, sans-serif;
-  color:#172B4D;
+  color: #172b4d;
 }
 
 .head {
-    width: 76px;
-    height: 20px;
-    font-family: 'poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #6070FF;
-    margin: 15px;
+  width: 76px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  margin: 15px;
 }
 
 .h {
   width: 327px;
   height: 150px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -37,92 +35,86 @@
 }
 
 .info1 {
-width: 327px;
-height: 146px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #344563;
-flex: none;
-order: 1;
-flex-grow: 0;
-margin-top: -20px;
-margin-left: 10px;
+  width: 327px;
+  height: 146px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: -20px;
+  margin-left: 10px;
 }
 
 .info2 {
-display: flex;
-width: 180px;
-height: 24px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #7F8CFF;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin-left: 10px;
+  display: flex;
+  width: 180px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 10px;
 }
 
 .twitter {
-/* position: absolute; */
-left: 6.4%;
-right: 88.27%;
-top: 77.81%;
-bottom: 18.88%;
+  /* position: absolute; */
+  left: 6.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
 }
 
 .iinsta {
-/* position: absolute; */
-left: 16.8%;
-right: 81.87%;
-top: 78.85%;
-bottom: 18.87%;
-background: #505F79;
+  /* position: absolute; */
+  left: 16.8%;
+  right: 81.87%;
+  top: 78.85%;
+  bottom: 18.87%;
+  background: #505f79;
 }
 
-.ninsta{
-/* position: absolute; */
-left: 18.74%;
-right: 77.87%;
-top: 78.32%;
-bottom: 18.87%;
+.ninsta {
+  /* position: absolute; */
+  left: 18.74%;
+  right: 77.87%;
+  top: 78.32%;
+  bottom: 18.87%;
 }
 
 .m {
-/* position: absolute; */
-left: 27.47%;
-right: 67.2%;
-top: 78.15%;
-bottom: 19.21%;
+  /* position: absolute; */
+  left: 27.47%;
+  right: 67.2%;
+  top: 78.15%;
+  bottom: 19.21%;
 }
 
 .gh {
-/* position: absolute; */
-left: 38.13%;
-right: 57.07%;
-top: 77.81%;
-bottom: 18.87%;
+  /* position: absolute; */
+  left: 38.13%;
+  right: 57.07%;
+  top: 77.81%;
+  bottom: 18.87%;
 }
 
 .peace {
-/* position: absolute; */
-left: 48%;
-right: 48.22%;
-top: 77.81%;
-bottom: 18.87%;
+  /* position: absolute; */
+  left: 48%;
+  right: 48.22%;
+  top: 77.81%;
+  bottom: 18.87%;
 }
 
 .dotless {
-list-style-type: none;
-}
-
-* {
-    /* border: 1px solid red; */
+  list-style-type: none;
 }
 
 .left {
@@ -130,13 +122,14 @@ list-style-type: none;
   left: -30px;
 }
 
-.section1{
+.section1 {
   width: 375px;
   height: 718px;
   background-image: url("images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .footer-items {
   display: flex;
   flex-direction: row;
@@ -150,7 +143,7 @@ list-style-type: none;
   margin-left: 223px;
   margin-top: 15px;
   font-size: 25px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .hdiv {
