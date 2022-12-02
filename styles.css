@@ -157,3 +157,11 @@ list-style-type: none;
   display: flex;
   flex-direction: row;
 }
+
+.head:hover {
+  color: red;
+}
+
+.menu-bar:hover {
+  color: red;
+}
