@@ -1,12 +1,12 @@
 * {
-  font-family: 'poppins';
+  font-family: poppins, sans-serif;
   color:#172B4D;
 }
 
 .head {
     width: 76px;
     height: 20px;
-    font-family: 'Poppins';
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -48,7 +48,8 @@ flex-grow: 0;
 }
 
 .info2 {
-width: 117px;
+display: flex;
+width: 180px;
 height: 24px;
 font-family: 'Poppins';
 font-style: normal;
@@ -62,7 +63,7 @@ flex-grow: 0;
 }
 
 .twitter {
-position: absolute;
+/* position: absolute; */
 left: 6.4%;
 right: 88.27%;
 top: 77.81%;
@@ -70,7 +71,7 @@ bottom: 18.88%;
 }
 
 .iinsta {
-position: absolute;
+/* position: absolute; */
 left: 16.8%;
 right: 81.87%;
 top: 78.85%;
@@ -79,7 +80,7 @@ background: #505F79;
 }
 
 .ninsta{
-position: absolute;
+/* position: absolute; */
 left: 18.74%;
 right: 77.87%;
 top: 78.32%;
@@ -87,7 +88,7 @@ bottom: 18.87%;
 }
 
 .m {
-position: absolute;
+/* position: absolute; */
 left: 27.47%;
 right: 67.2%;
 top: 78.15%;
@@ -95,7 +96,7 @@ bottom: 19.21%;
 }
 
 .gh {
-position: absolute;
+/* position: absolute; */
 left: 38.13%;
 right: 57.07%;
 top: 77.81%;
@@ -103,7 +104,7 @@ bottom: 18.87%;
 }
 
 .peace {
-position: absolute;
+/* position: absolute; */
 left: 48%;
 right: 48.22%;
 top: 77.81%;
@@ -115,6 +116,19 @@ list-style-type: none;
 }
 
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.left {
+  position: relative;
+  left: -30px;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20px;
+  width: 170.17px;
 }
 
