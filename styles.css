@@ -272,3 +272,27 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
+.section2 {
+  width: 375px;
+  height: 718px;
+  /* background-image: url("images/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+.counter {
+display:flex;
+border-radius: 50%,
+width: 8px;
+height: 8px;
+background: #C1C7D0;
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.counter1 {
+  
+}
+
