@@ -704,13 +704,13 @@
 }
 
 .see-project:disabled {
-  color:#93979b;
+  color: #93979b;
 }
 
 .see-project:hover {
   color: white;
 }
 
-.see-project1:visited {
+.see-project:visited {
   color: white;
-}
+}  
