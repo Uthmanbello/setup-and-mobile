@@ -539,6 +539,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hl {
@@ -551,6 +553,7 @@
   color: #fff;
   padding-left: 60px;
   padding-top: 80px;
+  order: 0;
 }
 
 .infol {
@@ -566,6 +569,11 @@
   text-align: center;
   color: #ebebff;
   margin-top: 190px;
+  order: 1;
+}
+
+.form {
+  order: 2;
 }
 
 .cont1 {
