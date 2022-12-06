@@ -535,12 +535,13 @@
 .section7 {
   width: 375px;
   height: 779px;
-  background-image:url(images/Contact\ me.png);
+  background-image: url(images/Contact\ me.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
+
   /* background-color: #6070FF; */
 }
 
@@ -644,7 +645,7 @@
   margin-left: 20px;
   margin-top: 17px;
   padding-left: 15px;
-  padding-top: 15px
+  padding-top: 15px;
 }
 
 .get-in-touch {
@@ -678,7 +679,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  border: 0px;
+  border: 0;
 }
 
 .frame {
