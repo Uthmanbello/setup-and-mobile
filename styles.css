@@ -496,8 +496,6 @@
   font-size: 20px;
   line-height: 24px;
   display: flex;
-
-  /* align-items: center; */
   color: #000;
   margin-left: -190px;
 }
@@ -541,8 +539,7 @@
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-
-  /* background-color: #6070FF; */
+  margin-left: 0px;
 }
 
 .hl {
@@ -591,7 +588,7 @@
 
 .cont1-txt {
   height: 48px;
-  width: 327px;
+  width: 317px;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -606,7 +603,7 @@
 
 .email {
   height: 48px;
-  width: 327px;
+  width: 317px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -628,7 +625,7 @@
 
 .comment {
   height: 150px;
-  width: 327px;
+  width: 317px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -661,7 +658,7 @@
   background: #fff;
   border-radius: 8px;
   margin-left: 5px;
-  margin-top: 190px;
+  margin-top: 200px;
 }
 
 .get-in-touch-txt {
@@ -680,6 +677,20 @@
   order: 0;
   flex-grow: 0;
   border: 0;
+}
+
+.get-in-touch-txt:hover {
+  color: white;
+  background-color: rgb(95, 132, 233); 
+}
+
+.get-in-touch-txt:visited {
+  color: white;
+  background-color: rgb(40, 80, 190);
+}
+
+.get-in-touch-txt:disabled {
+  color: #93979b;
 }
 
 .frame {
@@ -730,4 +741,9 @@
 
 .see-project:visited {
   color: white;
+}
+
+body {
+  padding: 0px;
+  margin: 0px
 }
