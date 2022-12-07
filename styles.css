@@ -539,7 +539,7 @@
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .hl {
@@ -681,7 +681,7 @@
 
 .get-in-touch-txt:hover {
   color: white;
-  background-color: rgb(95, 132, 233); 
+  background-color: rgb(95, 132, 233);
 }
 
 .get-in-touch-txt:visited {
@@ -744,6 +744,6 @@
 }
 
 body {
-  padding: 0px;
-  margin: 0px
+  padding: 0;
+  margin: 0;
 }
