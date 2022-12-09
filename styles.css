@@ -17,6 +17,10 @@
   margin: 15px;
 }
 
+.nav {
+  display: none;
+}
+
 .h {
   width: 327px;
   height: 150px;
@@ -35,18 +39,17 @@
 }
 
 .info1 {
-  width: 327px;
-  height: 146px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin-top: -20px;
-  margin-left: 10px;
+width: 327px;
+height: 146px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+flex: none;
+order: 1;
+flex-grow: 0;
 }
 
 .info2 {
@@ -65,7 +68,6 @@
 }
 
 .twitter {
-  /* position: absolute; */
   left: 6.4%;
   right: 88.27%;
   top: 77.81%;
@@ -73,7 +75,6 @@
 }
 
 .iinsta {
-  /* position: absolute; */
   left: 16.8%;
   right: 81.87%;
   top: 78.85%;
@@ -82,7 +83,6 @@
 }
 
 .ninsta {
-  /* position: absolute; */
   left: 18.74%;
   right: 77.87%;
   top: 78.32%;
@@ -90,7 +90,6 @@
 }
 
 .m {
-  /* position: absolute; */
   left: 27.47%;
   right: 67.2%;
   top: 78.15%;
@@ -98,7 +97,6 @@
 }
 
 .gh {
-  /* position: absolute; */
   left: 38.13%;
   right: 57.07%;
   top: 77.81%;
@@ -106,7 +104,6 @@
 }
 
 .peace {
-  /* position: absolute; */
   left: 48%;
   right: 48.22%;
   top: 77.81%;
@@ -128,6 +125,7 @@
   background-image: url("images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-size: contain;
+  display: flex;
 }
 
 .footer-items {
@@ -270,7 +268,7 @@
   flex-grow: 0;
 }
 
-.section2 {
+.section {
   width: 375px;
   height: 718px;
 }
@@ -381,21 +379,6 @@
   background-color: white;
 }
 
-.section3 {
-  width: 375px;
-  height: 718px;
-}
-
-.section4 {
-  width: 375px;
-  height: 718px;
-}
-
-.section5 {
-  width: 375px;
-  height: 718px;
-}
-
 .up1 {
   display: flex;
   flex-direction: row;
@@ -420,7 +403,7 @@
   margin-left: 35px;
 }
 
-.section6 {
+.section2 {
   width: 375px;
   background-image: url("images/Base\ about\ my\ self.png");
   background-repeat: no-repeat;
@@ -530,7 +513,7 @@
   margin-top: 30px;
 }
 
-.section7 {
+.section3 {
   width: 375px;
   height: 779px;
   background-image: url(images/Contact\ me.png);
@@ -746,4 +729,86 @@
 body {
   padding: 0;
   margin: 0;
+}
+
+@media only screen and (min-device-width : 768px) {
+body {
+  overflow-x: hidden;
+}
+
+.menu-bar {
+  display: none;
+}
+
+.head {
+  margin-left: 155px;
+  margin-top: 26px;
+}
+
+.nav {
+width: 62px;
+height: 20px;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+color: #344563;
+flex: none;
+order: 0;
+flex-grow: 0;
+float: right;
+justify-content: space-between;
+margin-right: 150px;
+margin-top: -35px;
+}
+
+.nav-link {
+  text-decoration-line: none;
+  padding-left: 20px;
+}
+
+.section1 {
+width: 1320px;
+height: 916px;
+left: 0px;
+top: 1px;
+background: #FFFFFF;
+background-image: url("images/Header\ bg@2x.png");
+background-repeat: no-repeat;
+background-size: contain;
+display: flex;
+}
+
+.h {
+margin-left: 260px;
+margin-top: 100px;
+width: 920px;
+height: 122px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+display: flex;
+align-items: center;
+letter-spacing: 0.37px;
+color: #091E42;
+flex: none;
+order: 0;
+flex-grow: 0
+}
+
+.info1 {
+width: 920px;
+height: 98px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #344563;
+flex: none;
+order: 1;
+flex-grow: 0;
 }
