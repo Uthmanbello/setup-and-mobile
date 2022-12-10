@@ -1214,4 +1214,8 @@ body {
   .scale1:hover {
     transform: scale(1.1)
   }
+
+  .infol:hover {
+    translate: 10px;
+  }
 }
