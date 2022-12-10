@@ -736,6 +736,10 @@
   width: 327px;
 }
 
+.unique-v {
+  margin-left: 80px;
+}
+
 .see-project1:hover {
   color: white;
   background-color: rgb(95, 132, 233);
@@ -758,6 +762,23 @@
   color: white;
 }
 
+.resume:visited {
+  color: white;
+  background-color: rgb(40, 80, 190);
+}
+
+.resume:hover {
+  color: white;
+  background-color: rgb(95, 132, 233);
+}
+
+.text-resume:hover {
+  color: white;
+}
+
+.text-resume:disabled {
+  color: #93979b;
+}
 body {
   padding: 0;
   margin: 0;
@@ -769,9 +790,22 @@ body {
   }
 
   .menu-bar {
-    display: none;
+    display: hidden;
+    color: white;
   }
 
+  .menu-bar:hover {
+    color: white;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .unique-y {
+    padding-top: 30px;
+  }
   .head {
     margin-left: 155px;
     margin-top: 26px;
@@ -845,9 +879,10 @@ body {
   }
 
   .info2 {
-    padding-top: 50px;
+    padding-top: -100px;
     margin-left: 260px;
     margin-top: -40px;
+    margin-bottom: 50px;
   }
 
   .section {
@@ -947,10 +982,12 @@ body {
   .see-projectd {
     color: white;
     background-color: rgb(40, 80, 190);
+    pointer-events: none;
   }
 
   .see-project1d {
     background-color: rgb(40, 80, 190);
+    pointer-events: none;
   }
 
   .img-right {
@@ -1008,25 +1045,34 @@ body {
   }
 
   .middled-unique {
-    margin-top: -5000px;
-    padding-top: -200px;
-    margin-bottom: 200px;
+    position:absolute;
+    top: 2120px;
+  }
+
+  .unique4 {
+    margin-top: -60px;
+  }
+
+  .unique-x {
+    margin-top: 40px;
   }
 
   .section2d {
     background-image: url("images/about\ myself\ -\ background-\ shape-\ desktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
+    width: 100%;
   }
 
   .info11d {
     margin-left: 260px;
     width: 450px;
+    margin-top: 10px;
   }
 
   .footer-items {
     margin-left: 250px;
-    margin-top: 20px;
+    margin-top: -20px;
   }
 
   .resume {
@@ -1041,7 +1087,7 @@ body {
   }
 
   .rule {
-    width: 300px;
+    width: 720px;
   }
 
   .languages {
@@ -1064,11 +1110,16 @@ body {
   }
 
   .spaced {
-    margin-right: -400px;
+    margin-right: -800px;
   }
 
   .spaced-unique {
-    margin-right: 0;
+    position: absolute;
+    left: 470px;
+  }
+
+  .unique-w {
+    left: 542px;
   }
 
   .unique3 {
@@ -1140,6 +1191,8 @@ body {
 
   .form {
     margin-top: 90px;
+    width: 1440px;
+    margin-left: 1070px;
   }
 
   .get-in-touch {
