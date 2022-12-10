@@ -818,10 +818,12 @@ body {
     margin-top: 26px;
     animation: rotation 2s 1 linear;
   }
+
   @keyframes rotation {
     from {
       transform: rotate(0deg);
     }
+
     to {
       transform: rotate(359deg);
     }
@@ -1212,7 +1214,7 @@ body {
   }
 
   .scale1:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
   }
 
   .infol:hover {
