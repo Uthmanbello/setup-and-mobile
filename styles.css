@@ -125,7 +125,6 @@ flex-grow: 0;
   background-image: url("images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-size: contain;
-  display: flex;
 }
 
 .footer-items {
@@ -158,7 +157,7 @@ flex-grow: 0;
 }
 
 .head2 {
-  width: 259px;
+  width: 300px;
   height: 36px;
   font-style: normal;
   font-weight: 700;
@@ -168,7 +167,7 @@ flex-grow: 0;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: -50px;
+  margin-left: 0px;
   margin-top: 0;
 }
 
@@ -390,6 +389,32 @@ flex-grow: 0;
   margin-left: -40px;
   margin-top: -20px;
   width: 280px;
+}
+
+.unique {
+  margin-left: -10px;
+  margin-top: 20px;
+}
+
+.unique1 {
+  margin-top: 40px;
+}
+
+.unique2 {
+  margin-left: 35px;
+}
+
+.unique3 {
+  margin-left: -10px;
+}
+
+.unique4 {
+  margin-left: 35px;
+}
+
+.unique5 {
+  margin-left: -40px;
+  margin-top: -10px;
 }
 
 .p41 {
@@ -785,7 +810,6 @@ background: #FFFFFF;
 background-image: url("images/Header\ bg@2x.png");
 background-repeat: no-repeat;
 background-size: contain;
-display: flex;
 }
 
 .h {
@@ -908,9 +932,120 @@ padding-right: -20px;
 }
 
 .sec2-left {
-  float: left;
+ padding-right: 400px;
 }
 
 .full-stack {
   width: 90px;
+}
+
+.see-projectd {
+  color: white;
+  background-color: rgb(40, 80, 190);
+}
+
+.see-project1d {
+  background-color: rgb(40, 80, 190);
+}
+
+.img-right {
+  display: -webkit-box;
+  margin-left: 570px;
+}
+
+.link4 {
+  width: 90px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.middled {
+  width: 350px;
+}
+
+.back-link4 {
+  width: 80px;
+}
+
+.downd {
+  padding-right: 115px
+}
+
+.border-boxd {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  height: 596px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.section2d {
+background-image: url("images/about\ myself\ -\ background-\ shape-\ desktop.svg");
+background-repeat: no-repeat; 
+background-size: contain;
+}
+
+.info11d {
+  margin-left: 260px;
+  width: 450px;
+}
+
+.info2 {
+  margin-left: 260px;
+  margin-top: -40px;
+}
+
+.footer-items {
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.resume {
+  margin-left: 260px;
+  margin-top: 30px;
+}
+
+.langd {
+  position: absolute;
+  left: 730px;
+  bottom: -3620px; 
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 390px;
+  margin-left: 75px;
+}
+
+.rule {
+  width: 500px;
+}
+
+.frm {
+  margin-top: -85px;
+}
+
+.dropdown3 {
+  padding-left: 203px;
+  padding-top: -50px;
+  color: #93979b;
+  margin-top: -33px;
 }
