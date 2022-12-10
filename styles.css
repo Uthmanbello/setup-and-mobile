@@ -792,7 +792,7 @@ order: 0;
 flex-grow: 0;
 float: right;
 justify-content: space-between;
-margin-right: 150px;
+margin-right: 250px;
 margin-top: -35px;
 }
 
@@ -843,6 +843,12 @@ color: #344563;
 flex: none;
 order: 1;
 flex-grow: 0;
+margin-left: 260px;
+margin-top: 60px;
+}
+
+.info2 {
+  padding-top: 50px;
 }
 
 .section {
@@ -996,6 +1002,16 @@ padding-right: -20px;
   flex-grow: 0;
 }
 
+.p4-unique {
+  margin-top: -280px;
+}
+
+middled-unique {
+  margin-top: -5000px;
+  padding-top: -200px;
+  margin-bottom: 200px;
+}
+
 .section2d {
 background-image: url("images/about\ myself\ -\ background-\ shape-\ desktop.svg");
 background-repeat: no-repeat; 
@@ -1024,8 +1040,12 @@ background-size: contain;
 
 .langd {
   position: absolute;
-  left: 730px;
-  bottom: -3620px; 
+  left: 560px;
+  bottom: -3740px; 
+}
+
+.rule {
+  width: 1200px;
 }
 
 .languages {
@@ -1052,7 +1072,11 @@ background-size: contain;
 }
 
 .spaced {
-  margin-right: -200px;
+  margin-right: -400px;
+}
+
+.spaced-unique {
+  margin-right: 0px;
 }
 
 .unique3 {
@@ -1114,15 +1138,19 @@ background-size: contain;
   align-items: center;
 }
 
+.aboutd {
+  margin-left: -200px;
+}
+
+
 .hl {
   margin-left: 500px;
 }
 
 .infol {
   margin-left: 370px;
-  margin-top: -140px;
+  margin-top: -95px;
   width: 550px;
-  padding-top: -150px
 }
 
 .form {
@@ -1131,5 +1159,5 @@ background-size: contain;
 
 .get-in-touch {
   margin-left: 560px;
-  margin-top: -200px;
+  margin-top: -160px;
 }
