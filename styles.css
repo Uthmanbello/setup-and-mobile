@@ -1191,7 +1191,9 @@ body {
     margin-left: 950px;
   }
 
-  .cont1, .email, .comment { 
+  .cont1,
+  .email,
+  .comment {
     width: 447px;
   }
 
