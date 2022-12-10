@@ -986,17 +986,6 @@ body {
     width: 90px;
   }
 
-  .see-projectd {
-    color: white;
-    background-color: rgb(40, 80, 190);
-    pointer-events: none;
-  }
-
-  .see-project1d {
-    background-color: rgb(40, 80, 190);
-    pointer-events: none;
-  }
-
   .img-right {
     display: -webkit-box;
     margin-left: 570px;
@@ -1191,7 +1180,7 @@ body {
   }
 
   .infol {
-    margin-left: 370px;
+    margin-left: 360px;
     margin-top: -95px;
     width: 550px;
   }
@@ -1199,7 +1188,11 @@ body {
   .form {
     margin-top: 90px;
     width: 1440px;
-    margin-left: 1070px;
+    margin-left: 950px;
+  }
+
+  .cont1, .email, .comment { 
+    width: 447px;
   }
 
   .get-in-touch {
