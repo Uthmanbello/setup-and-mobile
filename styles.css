@@ -1210,4 +1210,8 @@ body {
     margin-left: 560px;
     margin-top: -160px;
   }
+
+  .scale1:hover {
+    transform: scale(1.1)
+  }
 }
