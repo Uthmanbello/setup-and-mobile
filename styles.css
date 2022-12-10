@@ -932,6 +932,7 @@ padding-right: -20px;
 }
 
 .sec2-left {
+  position: absolute;
  padding-right: 400px;
 }
 
@@ -1048,4 +1049,26 @@ background-size: contain;
   padding-top: -50px;
   color: #93979b;
   margin-top: -33px;
+}
+
+.spaced {
+  margin-right: -200px;
+}
+
+.unique3 {
+  padding-left: 65px;
+}
+
+.p4-unique {
+  margin-right: 460px;
+  width: 450px;
+  padding-top: -90px;
+}
+
+.middle-unique {
+  margin-top: -100px;
+}
+
+.lead-dev {
+  width: 120px;
 }
