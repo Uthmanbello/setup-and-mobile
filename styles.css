@@ -1072,3 +1072,27 @@ background-size: contain;
 .lead-dev {
   width: 120px;
 }
+
+.sec3-left {
+  margin-right: 50px;
+  padding-left: -50px;
+  padding-right: 500px;
+  margin-top: -200px;;
+}
+
+.unique6 {
+  padding-left: 70px;
+  margin-right: -100px;
+  padding-right: -100px;
+}
+
+.p4-unique2 {
+  margin-top: -380px;
+  margin-left: 90px;
+  width: 480px;
+}
+
+.skill-project {
+  margin-top: -310px;
+  margin-left: 60px;
+}
