@@ -53,6 +53,7 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-left: 10px;
 }
 
 .info2 {
@@ -135,6 +136,7 @@ margin-top: -45px;
   margin-top: 15px;
   font-size: 25px;
   color: #6070ff;
+  display: block;
 }
 
 .hdiv {
@@ -161,7 +163,7 @@ margin-top: -45px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: 0;
+  margin-left: 12px;
   margin-top: 0;
 }
 
@@ -216,7 +218,7 @@ margin-top: -45px;
   order: 0;
   flex-grow: 0;
   margin-top: -240px;
-  margin-left: 35px;
+  margin-left: 44px;
 }
 
 .link1 {
@@ -315,11 +317,15 @@ margin-top: -45px;
 
 .middle {
   width: 230px;
-  margin-left: 30px;
+  margin-left: 38px;
   margin-top: -145px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.middle-unique {
+  margin-left: 48px;
 }
 
 .border-box {
@@ -386,12 +392,13 @@ margin-top: -45px;
 }
 
 .unique {
-  margin-left: -10px;
+  margin-left: -2px;
   margin-top: 20px;
 }
 
 .unique1 {
   margin-top: 40px;
+  margin-left: 5px;
 }
 
 .unique2 {
@@ -399,11 +406,11 @@ margin-top: -45px;
 }
 
 .unique3 {
-  margin-left: -10px;
+  margin-left: 3px;
 }
 
 .unique4 {
-  margin-left: 35px;
+  margin-left: 45px;
 }
 
 .unique5 {
@@ -727,6 +734,10 @@ margin-top: -45px;
   color: #93979b;
 }
 
+.dropdown3 {
+  visibility: hidden;
+}
+
 .rule {
   color: #f5f6fa;
   width: 327px;
@@ -780,7 +791,7 @@ margin-top: -45px;
   color: #93979b;
 }
 
-body {
+html, body {
   padding: 0;
   margin: 0;
 }
@@ -791,8 +802,7 @@ body {
   }
 
   .menu-bar {
-    display: hidden;
-    color: white;
+    visibility: hidden;
   }
 
   .menu-bar:hover {
@@ -1114,6 +1124,7 @@ body {
     padding-top: -50px;
     color: #93979b;
     margin-top: -33px;
+    display: block;
   }
 
   .spaced {
