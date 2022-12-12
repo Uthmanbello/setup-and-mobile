@@ -79,8 +79,8 @@
 }
 
 .linkedin-icon {
-margin-top: -45px;
-  color: #505f79; 
+  margin-top: -45px;
+  color: #505f79;
   font-size: 24px;
 }
 
@@ -976,7 +976,7 @@ body {
     padding-right: 165px;
   }
 
-.downd {
+  .downd {
     padding-right: 98px;
   }
 
@@ -1069,6 +1069,7 @@ body {
   .middled-unique {
     position: absolute;
     top: 2120px;
+    margin-top: -150px;
   }
 
   .unique4 {
@@ -1147,10 +1148,6 @@ body {
 
   .unique3 {
     padding-left: 52px;
-  }
-
-  .middled-unique {
-    margin-top: -150px;
   }
 
   .lead-dev {
