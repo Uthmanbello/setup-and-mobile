@@ -106,7 +106,7 @@ npx stylelint "**/*.{css,scss}" --fix
 ### Deployment
 
 You can deploy this project using:
-
+https://uthmanbello.github.io/setup-and-mobile/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
