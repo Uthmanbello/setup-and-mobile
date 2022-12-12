@@ -17,6 +17,10 @@
   margin: 15px;
 }
 
+.linkedin {
+  padding-top: -50px;
+}
+
 .nav {
   display: none;
 }
@@ -49,6 +53,7 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-left: 10px;
 }
 
 .info2 {
@@ -73,19 +78,10 @@
   bottom: 18.88%;
 }
 
-.iinsta {
-  left: 16.8%;
-  right: 81.87%;
-  top: 78.85%;
-  bottom: 18.87%;
-  background: #505f79;
-}
-
-.ninsta {
-  left: 18.74%;
-  right: 77.87%;
-  top: 78.32%;
-  bottom: 18.87%;
+.linkedin-icon {
+  margin-top: -45px;
+  color: #505f79;
+  font-size: 24px;
 }
 
 .m {
@@ -140,6 +136,7 @@
   margin-top: 15px;
   font-size: 25px;
   color: #6070ff;
+  display: block;
 }
 
 .hdiv {
@@ -148,11 +145,11 @@
 }
 
 .head:hover {
-  color: red;
+  color: rgb(28, 27, 29);
 }
 
 .menu-bar:hover {
-  color: red;
+  color: rgb(28, 27, 29);
 }
 
 .head2 {
@@ -166,7 +163,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: 0;
+  margin-left: 12px;
   margin-top: 0;
 }
 
@@ -221,7 +218,7 @@
   order: 0;
   flex-grow: 0;
   margin-top: -240px;
-  margin-left: 35px;
+  margin-left: 44px;
 }
 
 .link1 {
@@ -320,11 +317,15 @@
 
 .middle {
   width: 230px;
-  margin-left: 30px;
+  margin-left: 38px;
   margin-top: -145px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.middle-unique {
+  margin-left: 48px;
 }
 
 .border-box {
@@ -391,12 +392,13 @@
 }
 
 .unique {
-  margin-left: -10px;
+  margin-left: -2px;
   margin-top: 20px;
 }
 
 .unique1 {
   margin-top: 40px;
+  margin-left: 5px;
 }
 
 .unique2 {
@@ -404,11 +406,11 @@
 }
 
 .unique3 {
-  margin-left: -10px;
+  margin-left: 3px;
 }
 
 .unique4 {
-  margin-left: 35px;
+  margin-left: 45px;
 }
 
 .unique5 {
@@ -472,6 +474,7 @@
   order: 3;
   flex-grow: 0;
   background-color: white;
+  margin-left: 10px;
 }
 
 .text-resume {
@@ -676,6 +679,10 @@
   margin-top: 200px;
 }
 
+.submit-unique {
+  margin-left: 86px;
+}
+
 .get-in-touch-txt {
   width: 150px;
   height: px;
@@ -729,6 +736,10 @@
   padding-left: 203px;
   padding-top: 35px;
   color: #93979b;
+}
+
+.dropdown3 {
+  visibility: hidden;
 }
 
 .rule {
@@ -795,8 +806,7 @@ body {
   }
 
   .menu-bar {
-    display: hidden;
-    color: white;
+    visibility: hidden;
   }
 
   .menu-bar:hover {
@@ -845,6 +855,10 @@ body {
     justify-content: space-between;
     margin-right: 250px;
     margin-top: -35px;
+  }
+
+  .linkedin-icon {
+    margin-top: -3px;
   }
 
   .nav-link {
@@ -962,6 +976,10 @@ body {
     padding-right: 165px;
   }
 
+  .downd {
+    padding-right: 98px;
+  }
+
   .p41 {
     width: 496px;
     height: 50px;
@@ -970,9 +988,10 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
+    margin-top: -300px;
     margin-right: -200px;
     padding-right: 30px;
-    margin-bottom: -20px;
+    margin-bottom: -80px;
   }
 
   .middle {
@@ -1024,10 +1043,6 @@ body {
     width: 80px;
   }
 
-  .downd {
-    padding-right: 115px;
-  }
-
   .border-boxd {
     box-sizing: border-box;
     display: flex;
@@ -1054,6 +1069,7 @@ body {
   .middled-unique {
     position: absolute;
     top: 2120px;
+    margin-top: -150px;
   }
 
   .unique4 {
@@ -1090,7 +1106,7 @@ body {
   .langd {
     position: absolute;
     left: 560px;
-    bottom: -3740px;
+    bottom: -3832px;
   }
 
   .rule {
@@ -1114,6 +1130,7 @@ body {
     padding-top: -50px;
     color: #93979b;
     margin-top: -33px;
+    visibility: visible;
   }
 
   .spaced {
@@ -1130,11 +1147,7 @@ body {
   }
 
   .unique3 {
-    padding-left: 65px;
-  }
-
-  .middle-unique {
-    margin-top: -100px;
+    padding-left: 52px;
   }
 
   .lead-dev {
@@ -1149,20 +1162,24 @@ body {
   }
 
   .unique6 {
-    padding-left: 70px;
+    padding-left: 55px;
     margin-right: -100px;
     padding-right: -100px;
   }
 
   .p4-unique2 {
     margin-top: -380px;
-    margin-left: 90px;
+    margin-left: 89px;
     width: 480px;
   }
 
   .skill-project {
     margin-top: -310px;
     margin-left: 60px;
+  }
+
+  .skill-project-unique {
+    margin-left: 43px;
   }
 
   .section3 {
@@ -1191,7 +1208,7 @@ body {
   }
 
   .infol {
-    margin-left: 360px;
+    margin-left: 380px;
     margin-top: -95px;
     width: 550px;
   }
@@ -1209,7 +1226,7 @@ body {
   }
 
   .get-in-touch {
-    margin-left: 560px;
+    margin-left: 580px;
     margin-top: -160px;
   }
 
