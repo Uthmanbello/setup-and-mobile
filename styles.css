@@ -17,6 +17,10 @@
   margin: 15px;
 }
 
+.linkedin {
+  padding-top: -50px;
+}
+
 .nav {
   display: none;
 }
@@ -73,19 +77,10 @@
   bottom: 18.88%;
 }
 
-.iinsta {
-  left: 16.8%;
-  right: 81.87%;
-  top: 78.85%;
-  bottom: 18.87%;
-  background: #505f79;
-}
-
-.ninsta {
-  left: 18.74%;
-  right: 77.87%;
-  top: 78.32%;
-  bottom: 18.87%;
+.linkedin-icon {
+margin-top: -45px;
+  color: #505f79; 
+  font-size: 24px;
 }
 
 .m {
@@ -845,6 +840,10 @@ body {
     justify-content: space-between;
     margin-right: 250px;
     margin-top: -35px;
+  }
+
+  .linkedin-icon {
+    margin-top: -3px;
   }
 
   .nav-link {
