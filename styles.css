@@ -679,6 +679,10 @@ margin-top: -45px;
   margin-top: 200px;
 }
 
+.submit-unique {
+  margin-left: 86px;
+}
+
 .get-in-touch-txt {
   width: 150px;
   height: px;
@@ -791,7 +795,7 @@ margin-top: -45px;
   color: #93979b;
 }
 
-html, body {
+body {
   padding: 0;
   margin: 0;
 }
@@ -972,6 +976,10 @@ html, body {
     padding-right: 165px;
   }
 
+.downd {
+    padding-right: 98px;
+  }
+
   .p41 {
     width: 496px;
     height: 50px;
@@ -980,9 +988,10 @@ html, body {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
+    margin-top: -300px;
     margin-right: -200px;
     padding-right: 30px;
-    margin-bottom: -20px;
+    margin-bottom: -80px;
   }
 
   .middle {
@@ -1032,10 +1041,6 @@ html, body {
 
   .back-link4 {
     width: 80px;
-  }
-
-  .downd {
-    padding-right: 115px;
   }
 
   .border-boxd {
@@ -1100,7 +1105,7 @@ html, body {
   .langd {
     position: absolute;
     left: 560px;
-    bottom: -3740px;
+    bottom: -3832px;
   }
 
   .rule {
@@ -1124,7 +1129,7 @@ html, body {
     padding-top: -50px;
     color: #93979b;
     margin-top: -33px;
-    display: block;
+    visibility: visible;
   }
 
   .spaced {
@@ -1141,11 +1146,11 @@ html, body {
   }
 
   .unique3 {
-    padding-left: 65px;
+    padding-left: 52px;
   }
 
-  .middle-unique {
-    margin-top: -100px;
+  .middled-unique {
+    margin-top: -150px;
   }
 
   .lead-dev {
@@ -1160,20 +1165,24 @@ html, body {
   }
 
   .unique6 {
-    padding-left: 70px;
+    padding-left: 55px;
     margin-right: -100px;
     padding-right: -100px;
   }
 
   .p4-unique2 {
     margin-top: -380px;
-    margin-left: 90px;
+    margin-left: 89px;
     width: 480px;
   }
 
   .skill-project {
     margin-top: -310px;
     margin-left: 60px;
+  }
+
+  .skill-project-unique {
+    margin-left: 43px;
   }
 
   .section3 {
@@ -1202,7 +1211,7 @@ html, body {
   }
 
   .infol {
-    margin-left: 360px;
+    margin-left: 380px;
     margin-top: -95px;
     width: 550px;
   }
@@ -1220,7 +1229,7 @@ html, body {
   }
 
   .get-in-touch {
-    margin-left: 560px;
+    margin-left: 580px;
     margin-top: -160px;
   }
 
