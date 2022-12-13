@@ -8,7 +8,7 @@
   height: 20px;
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.375em;
   line-height: 20px;
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@
   height: 150px;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5em;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@
   height: 146px;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 24px;
   color: #344563;
   flex: none;
@@ -62,7 +62,7 @@
   height: 24px;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 24px;
   color: #7f8cff;
   flex: none;
@@ -81,7 +81,7 @@
 .linkedin-icon {
   margin-top: -45px;
   color: #505f79;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .m {
@@ -157,7 +157,7 @@
   height: 36px;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2em;
   line-height: 44px;
   color: #172b4d;
   flex: none;
@@ -172,7 +172,7 @@
   height: 16px;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 0.8125em;
   line-height: 16px;
   color: #344563;
   flex: none;
@@ -185,7 +185,7 @@
   height: 16px;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 0.8125em;
   line-height: 16px;
   color: #7a869a;
   flex: none;
@@ -198,7 +198,7 @@
   height: 16px;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 0.8125em;
   line-height: 16px;
   color: #7a869a;
   flex: none;
@@ -211,7 +211,7 @@
   height: 220px;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 0.9375em;
   line-height: 24px;
   color: #344563;
   flex: none;
@@ -226,7 +226,7 @@
   height: 16px;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75em;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
@@ -240,7 +240,7 @@
   height: 16px;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75em;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
@@ -254,7 +254,7 @@
   height: 16px;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75em;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
@@ -353,7 +353,7 @@
   height: 24px;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 1.0625em;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -423,7 +423,7 @@
   height: 220px;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 0.9375em;
   line-height: 24px;
   color: #344563;
   flex: none;
@@ -449,7 +449,7 @@
   height: 146px;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 24px;
   color: #344563;
   flex: none;
@@ -482,7 +482,7 @@
   height: 24px;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 1.0625em;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -511,7 +511,7 @@
 .lang-txt {
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 24px;
   display: flex;
   color: #000;
@@ -524,7 +524,7 @@
   right: 78px;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -539,7 +539,7 @@
   right: 78px;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -565,7 +565,7 @@
   height: 56px;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5em;
   line-height: 52px;
   color: #fff;
   padding-left: 60px;
@@ -581,7 +581,7 @@
   top: 4802px;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
@@ -609,7 +609,7 @@
   width: 317px;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 1.0625em;
   line-height: 20px;
   display: flex;
   align-items: center;
@@ -632,7 +632,7 @@
 .email-txt {
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 1.0625em;
   line-height: 20px;
   display: flex;
   align-items: center;
@@ -654,7 +654,7 @@
 .comment-txt {
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 0.9375em;
   line-height: 24px;
   color: #b3bac5;
   margin-left: 20px;
@@ -688,7 +688,7 @@
   height: px;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 1.0625em;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -844,7 +844,7 @@ body {
     height: 20px;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 0.9375em;
     line-height: 20px;
     display: flex;
     color: #344563;
@@ -884,7 +884,7 @@ body {
     height: 122px;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3em;
     line-height: 60px;
     display: flex;
     align-items: center;
@@ -900,7 +900,7 @@ body {
     height: 98px;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 28px;
     color: #344563;
     flex: none;
@@ -957,7 +957,7 @@ body {
     height: 46px;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5em;
     line-height: 52px;
     color: #091e42;
     flex: none;
@@ -985,7 +985,7 @@ body {
     height: 50px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 24px;
     color: #344563;
     margin-top: -300px;
@@ -1026,7 +1026,7 @@ body {
     height: 16px;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75em;
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #6070ff;
