@@ -1265,11 +1265,11 @@ a {
   .nav-link {
       color: white;
       font-size: 2em;
-      font-weight: 500;
+      font-weight: 600;
   }
 
   .nav-item {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
       margin: 16px 0;
   }
 
@@ -1285,14 +1285,5 @@ a {
   header.active {
       background-color: #6070ff;
       width: 375px;
-  }
-
-  #portfolio.nav-icon.active {
-    opacity: 50%;
-  }
-
-  .section1 {
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter:blur(10px);
   }
 }

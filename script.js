@@ -12,4 +12,5 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
     navIcon.classList.remove("active");
     navMenu.classList.remove("active");
     header.classList.remove("active");
+    portfolio.classList.remove("active");
 }))
