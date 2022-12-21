@@ -1,13 +1,11 @@
 const navIcon = document.querySelector(".nav-icon");
 const navMenu = document.querySelector(".nav-menu");
 const header = document.querySelector("header");
-const portfolio = document.querySelector("#portfolio");
 
 navIcon.addEventListener("click", () => {
     navIcon.classList.toggle("active");
     navMenu.classList.toggle("active");
     header.classList.toggle("active");
-    portfolio.classList.toggle("active");
 })
 
 document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {

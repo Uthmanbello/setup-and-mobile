@@ -1293,5 +1293,6 @@ a {
 
   .section1 {
     backdrop-filter: blur(0px);
+    -webkit-backdrop-filter:blur(10px);
   }
 }
