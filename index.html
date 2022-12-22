@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/dcdd89c74c.js" crossorigin="anonymous"></script>
+    <script src="popup.js" defer></script>
 </head>
 
 <body>
@@ -87,7 +88,7 @@
                     </li>
                 </ul>
                 <button class="see-project1 unique2">
-                    <div class="see-project">See Project</div>
+                    <div class="see-project" id="sec2-project">See Project</div>
                 </button>
             </section>
         <section>
@@ -314,6 +315,46 @@
         </form>
         </div>
     </section>
+
+    <!-- Popup container -->
+    <div class="popup d-none">
+        <div class="popup-content">
+            <i class="fa-solid fa-xmark popup-close"></i>
+            <h2 class="popup-title">Tonic</h2>
+            <div class="popup-text"><div class="up1 unique">
+                <div class="p1">CANOPY</div>
+                <div class="counter"></div>
+                <div class="p2">Back End Dev</div>
+                <div class="counter"></div>
+                <div class="p3">2015</div>
+                </div>
+            </div>
+            <img src="images/sec2 mobile.svg" alt="" class="popup-image">
+            <p class="popup-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+            <div>
+                <ul class="middle lang-popup">
+                    <li class="back-link1 back-link">
+                        <div class="link1">html</div>
+                    </li>
+                    <li class="back-link2 back-link">
+                        <div class="link2">css</div>
+                    </li>
+                    <li class="back-link3 back-link">
+                        <div class="link3">javaScript</div>
+                    </li>
+                </ul>
+            </div>
+            <hr class="hr-popup">
+            <div class="popup-btns">
+                <button class="see-project1 popup-btn">
+                    <div class="see-project">See live</div><img src="images/Ellipse.png">
+                </button>
+                <button class="see-project1">
+                    <div class="see-project popup-btn2">See source<img src="images/blue-github.svg"></div>
+                </button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
