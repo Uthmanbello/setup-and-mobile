@@ -4,6 +4,7 @@ const projectArr = [
         title: 'Tonic',
         details: ['CANOPY', 'Back End Dev', 2015],
         image: 'images/sec2 mobile.svg',
+        desktopImage: 'images/section 2 desk.png',
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
         technologies: ['html', 'css', 'javaScript'],
         live: 'https://uthmanbello.github.io/setup-and-mobile/',
@@ -14,6 +15,7 @@ const projectArr = [
         title: 'Multi-Post Stories',
         details: ['CANOPY', 'Back End Dev', 2015],
         image: 'images/Snapshoot Portfolio (1).png',
+        desktopImage: 'images/section 3 desk.png',
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
         technologies: ['html', 'css', 'javaScript'],
         live: 'https://uthmanbello.github.io/setup-and-mobile/',
@@ -24,6 +26,7 @@ const projectArr = [
         title: 'Tonic',
         details: ['CANOPY', 'Back End Dev', 2015],
         image: 'images/Snapshoot Portfolio (2).png',
+        desktopImage: 'images/section 4 desk.png',
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
         technologies: ['html', 'css', 'javaScript'],
         live: 'https://uthmanbello.github.io/setup-and-mobile/',
@@ -34,8 +37,9 @@ const projectArr = [
         title: 'Multi-Post Stories',
         details: ['CANOPY', 'Back End Dev', 2015],
         image: 'images/Snapshoot Portfolio (3).png',
+        desktopImage: 'images/section 5 desk.png',
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        technologies: ['html', 'css', 'javaScript']
+        technologies: ['html', 'css', 'javaScript'],
         live: 'https://uthmanbello.github.io/setup-and-mobile/',
         source: 'https://github.com/Uthmanbello/setup-and-mobile'
     }
