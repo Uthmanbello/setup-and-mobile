@@ -522,7 +522,7 @@
   font-size: 2.5em;
   line-height: 52px;
   color: #fff;
-  padding-left: 60px;
+  padding-left: 90px;
   padding-top: 70px;
   order: 0;
 }
@@ -539,12 +539,14 @@
   text-align: center;
   color: #ebebff;
   margin-top: 210px;
+  margin-left: -15px;
   order: 1;
 }
 
 .form {
   order: 2;
   margin-top: 150px;
+  margin-left: 28px;
 }
 
 .cont1 {
@@ -558,7 +560,7 @@
 
 .cont1-txt {
   height: 48px;
-  width: 317px;
+  width: 327px;
   font-style: normal;
   font-weight: 400;
   font-size: 1.0625em;
@@ -573,7 +575,7 @@
 
 .email {
   height: 48px;
-  width: 317px;
+  width: 327px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -595,7 +597,7 @@
 
 .comment {
   height: 150px;
-  width: 317px;
+  width: 327px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -627,8 +629,7 @@
   top: 5317px;
   background: #fff;
   border-radius: 8px;
-  margin-left: 5px;
-  margin-top: 200px;
+  margin-top: 210px;
 }
 
 .submit-unique {
@@ -705,6 +706,11 @@
 
 .unique-u {
   margin-top: 190px;
+}
+
+.validation-message {
+  margin-top: 60px;
+  margin-left: 10px;
 }
 
 .see-project1:hover {
