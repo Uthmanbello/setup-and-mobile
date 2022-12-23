@@ -308,7 +308,6 @@
 }
 
 .see-project {
-  /* width: 100px; */
   height: 24px;
   font-style: normal;
   font-weight: 500;
@@ -331,8 +330,6 @@
   align-items: center;
   padding: 12px;
   gap: 10px;
-
-  /* width: 124px; */
   height: 48px;
   left: 0;
   border: 1px solid #6070ff;
@@ -783,7 +780,7 @@ body {
   .linkedin-icon {
     margin-top: -3px;
   }
-
+ 
   .section1 {
     width: 1320px;
     height: 916px;
@@ -1315,6 +1312,10 @@ a {
 
   .lang-popup {
     padding-top: 16px;
+  }
+
+  .btn-space {
+    margin-left: 2px;
   }
 }
 
