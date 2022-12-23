@@ -1223,6 +1223,7 @@ a {
   width: 100vw;
   height: 100vh;
   background-color: #2c2c2cd0;
+  overflow-y: scroll;
 }
 
 .popup-content {
@@ -1236,6 +1237,10 @@ a {
 .popup-text {
   margin-bottom: 15px;
   margin-top: -5px;
+}
+
+.popup-text .up1 {
+ margin-left: -20px;
 }
 
 .hr-popup {
