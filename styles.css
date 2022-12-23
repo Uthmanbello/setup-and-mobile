@@ -525,6 +525,7 @@
   padding-left: 90px;
   padding-top: 70px;
   order: 0;
+  margin-left: -20px;
 }
 
 .infol {
@@ -546,7 +547,7 @@
 .form {
   order: 2;
   margin-top: 150px;
-  margin-left: 28px;
+  margin-left: -4px;
 }
 
 .cont1 {
@@ -652,7 +653,7 @@
   order: 0;
   flex-grow: 0;
   border: 0;
-  margin-left: 13px;
+  margin-left: -17px;
 }
 
 .get-in-touch-txt:hover {
