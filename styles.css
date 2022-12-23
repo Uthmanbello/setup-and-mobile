@@ -1248,7 +1248,7 @@ a {
 .popup-btns {
   display: flex;
   flex-direction: row;
-  gap: -5px; 
+  gap: -5px;
   margin-left: -25px;
   margin-top: -8px;
 }
@@ -1258,14 +1258,15 @@ a {
 }
 
 .popup-btn2 {
-  padding: 0px;
+  padding: 0;
 }
+
 .popup-close {
   float: right;
 }
 
 .lang-popup {
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 5px;
 }
 
@@ -1282,6 +1283,7 @@ a {
   .popup-title {
     font-size: 2.5em;
   }
+
   .popup-text .up1 {
     margin: 0;
     padding-left: 0;
@@ -1315,6 +1317,7 @@ a {
     padding-top: 16px;
   }
 }
+
 @media (max-width: 768px) {
   .header {
     width: 332px;
