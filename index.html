@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/dcdd89c74c.js" crossorigin="anonymous"></script>
+    <script src="popup.js" defer></script>
+    <script src="validation.js" defer></script>
 </head>
 
 <body>
@@ -86,8 +88,8 @@
                         <div class="link3">javaScript</div>
                     </li>
                 </ul>
-                <button class="see-project1 unique2">
-                    <div class="see-project">See Project</div>
+                <button class="see-project1 project-buttons unique2">
+                    <div class="see-project" id="sec2-project">See Project</div>
                 </button>
             </section>
     </section>
@@ -129,7 +131,7 @@
                         <div class="link3">javaScript</div>
                     </li>
                 </ul>
-                <button class="see-project1 unique4">
+                <button class="see-project1 project-buttons unique4">
                     <div class="see-project">See Project</div>
                 </button>
             </section>
@@ -173,7 +175,7 @@
                         <div class="link3">javaScript</div>
                     </li>
                 </ul>
-                <button class="see-project1 unique2 see-project1d">
+                <button class="see-project1 project-buttons unique2 see-project1d">
                     <div class="see-project see-projectd">See Project</div>
                 </button>
             </section>
@@ -218,7 +220,7 @@
                         <div class="link3">javaScript</div>
                     </li>
                 </ul>
-                <button class="see-project1 unique4 unique-x">
+                <button class="see-project1 project-buttons unique4 unique-x">
                     <div class="see-project">See Project</div>
                 </button>
                 </div>
@@ -289,15 +291,63 @@
         <h1 class="hl">Contact me</h1>
         <p class="infol">If you have an application you are interested in developing, a feature that you need built or a
             project that needs coding. I’d love to help with it </p>
-        <form action="https://formspree.io/f/xlevqnng" method="post" class="form unique-u">
+        <form action="https://formspree.io/f/xlevqnng" method="post" class="form unique-u" id="form">
             <label for="name" class="label"><input type="text" class="cont1-txt cont1" id="name" placeholder="Your name" maxlength="30" name="username" required /></label>
             <label for="emailid" class="label"><input type="email" class="email-txt email" id="emailid" placeholder="example@xyz.com" name="email" required /></label>
             <label for="message" class="label"><textarea class="comment-txt comment" id="message" placeholder="Write your message here" maxlength="500" cols="10"
-                rows="30" name="message" required></textarea></label>
+                rows="30" name="message" required></textarea>
+            </label>
             <button class="get-in-touch-txt get-in-touch submit-unique" type="submit" >Get in touch</button>
+            <p class="validation-message d-none"></p>
         </form>
         </div>
     </section>
+
+    <!-- Popup container -->
+    <div class="popup d-none">
+        <div class="popup-content">
+            <i class="fa-solid fa-xmark popup-close"></i>
+            <h2 class="popup-title">Tonic</h2>
+            <div class="popup-text"><div class="up1 unique">
+                <div class="p1">CANOPY</div>
+                <div class="counter"></div>
+                <div class="p2">Back End Dev</div>
+                <div class="counter"></div>
+                <div class="p3">2015</div>
+                </div>
+            </div>
+            <img src="images/sec2 mobile.svg" alt="" class="popup-image">
+            <div class="left-right-wrapper">
+                <div class="left-wrapper">
+                    <p class="popup-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+                </div>
+                <div class="right-wrapper">
+                    <div>
+                        <ul class="middle lang-popup">
+                            <li class="back-link1 back-link">
+                                <div class="link1">html</div>
+                            </li>
+                            <li class="back-link2 back-link">
+                                <div class="link2">css</div>
+                            </li>
+                            <li class="back-link3 back-link">
+                                <div class="link3">javaScript</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr class="hr-popup">
+                    <div class="popup-btns">
+                        <button class="see-project1 popup-btn">
+                            <div class="see-project">See live</div><img src="images/Ellipse.png">
+                        </button>
+                        <button class="see-project1">
+                            <div class="see-project popup-btn2">See source<img src="images/blue-github.svg" class="btn-space"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
