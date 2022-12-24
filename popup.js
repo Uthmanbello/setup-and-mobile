@@ -47,6 +47,46 @@ const projectArr = [
 
 const popup = document.querySelector('.popup');
 const projectButtons = document.querySelectorAll('.project-buttons');
+const worksSection = document.querySelector('.works');
+let html = '';
+projectArr.forEach((project) => {
+    html += `
+    <section class="section">
+            <section class="border-box sec">
+                <div class="sec-left">
+                <img src="${project.image}" alt="tonic"  class="status">
+                <img src="${project.desktopImage}">
+                <h2 class="head2">${project.title}</h2>
+                <div class="up1 unique">
+                    <div class="p1">${project.details[0]}</div>
+                    <div class="counter"></div>
+                    <div class="p2">${project.details[1]}</div>
+                    <div class="counter"></div>
+                    <div class="p3">${project.details[2]}</div>
+                </div>
+                </div>
+            </section>
+            <section class="down unique1">
+                <p class="p41 p41d">${project.description}</p>
+                <ul class="middle">
+                    <li class="back-link1 back-link">
+                        <div class="link1">${project.technologies[0]}</div>
+                    </li>
+                    <li class="back-link2 back-link">
+                        <div class="link2">${project.technologies[1]}</div>
+                    </li>
+                    <li class="back-link3 back-link">
+                        <div class="link3">${project.technologies[2]}</div>
+                    </li>
+                </ul>
+                <button class="see-project1 project-buttons unique2">
+                    <div class="see-project" id="sec2-project">See Project</div>
+                </button>
+            </section>
+    </section>`;
+});
+
+worksSection.innerHTML = html;
 
 for (let index = 0; index < projectButtons.length; index++) {
     projectButtons[index].addEventListener('click', () => {
