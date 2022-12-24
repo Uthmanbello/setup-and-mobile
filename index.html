@@ -122,12 +122,12 @@
         <h1 class="hl">Contact me</h1>
         <p class="infol">If you have an application you are interested in developing, a feature that you need built or a
             project that needs coding. I’d love to help with it </p>
-        <form action="https://formspree.io/f/xlevqnng" method="post" class="form unique-u">
+        <form action="https://formspree.io/f/xlevqnng" method="post" class="form">
             <label for="name" class="label"><input type="text" class="cont1-txt cont1" id="name" placeholder="Your name" maxlength="30" name="username" required /></label>
             <label for="emailid" class="label"><input type="email" class="email-txt email" id="emailid" placeholder="example@xyz.com" name="email" required /></label>
             <label for="message" class="label"><textarea class="comment-txt comment" id="message" placeholder="Write your message here" maxlength="500" cols="10"
                 rows="30" name="message" required></textarea></label>
-            <button class="get-in-touch-txt get-in-touch submit-unique" type="submit" >Get in touch</button>
+            <button class="get-in-touch-txt get-in-touch" type="submit" >Get in touch</button>
         </form>
         </div>
     </section>
@@ -135,8 +135,10 @@
     <!-- Popup container -->
     <div class="popup d-none">
         <div class="popup-content">
-            <i class="fa-solid fa-xmark popup-close"></i>
-            <h2 class="popup-title">Tonic</h2>
+            <div class="popup-header">
+                <i class="fa-solid fa-xmark popup-close"></i>
+                <h2 class="popup-title">Tonic</h2>
+            </div>
             <div class="popup-text"><div class="up1 unique">
                 <div class="p1">CANOPY</div>
                 <div class="counter"></div>
@@ -167,10 +169,20 @@
                     <hr class="hr-popup">
                     <div class="popup-btns">
                         <button class="see-project1 popup-btn">
-                            <div class="see-project">See live</div><img src="images/Ellipse.png">
+                            <div class="see-project">
+                                See live &apos;
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5 12C5 8.13401 8.13401 5 12 5C12.5523 5 13 4.55228 13 4C13 
+                                    3.44772 12.5523 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 11.4477 
+                                    20.5523 11 20 11C19.4477 11 19 11.4477 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12ZM16 3C15.4477 3 
+                                    15 3.44772 15 4C15 4.55228 15.4477 5 16 5H17.5858L11.2929 11.2929C10.9024 11.6834 10.9024 12.3166 11.2929 
+                                    12.7071C11.6834 13.0976 12.3166 13.0976 12.7071 12.7071L19 6.41421V8C19 8.55228 19.4477 9 20 9C20.5523 9 21 
+                                    8.55228 21 8V4C21 3.44772 20.5523 3 20 3H16Z" fill="#6070FF"/>
+                                </svg>
+                            </div>
                         </button>
                         <button class="see-project1">
-                            <div class="see-project popup-btn2">See source<img src="images/blue-github.svg" class="btn-space"></div>
+                            <div class="see-project popup-btn2">See source &apos;<img src="images/blue-github.svg" class="btn-space"></div>
                         </button>
                     </div>
                 </div>

@@ -46,28 +46,27 @@ const projectArr = [
 ]
 
 const popup = document.querySelector('.popup');
-const projectButtons = document.querySelectorAll('.project-buttons');
 const worksSection = document.querySelector('.works');
+
 let html = '';
+
 projectArr.forEach((project) => {
     html += `
     <section class="section">
-            <section class="border-box sec">
-                <div class="sec-left">
-                <img src="${project.image}" alt="tonic"  class="status">
-                <img src="${project.desktopImage}">
+            <section>
+                <img src="${project.image}" alt="tonic"  class="status mobile-img">
+                <img src="${project.desktopImage}" class="desktop-img">
+            </section>
+            <section class="">
                 <h2 class="head2">${project.title}</h2>
-                <div class="up1 unique">
+                <div class="up1">
                     <div class="p1">${project.details[0]}</div>
                     <div class="counter"></div>
                     <div class="p2">${project.details[1]}</div>
                     <div class="counter"></div>
                     <div class="p3">${project.details[2]}</div>
                 </div>
-                </div>
-            </section>
-            <section class="down unique1">
-                <p class="p41 p41d">${project.description}</p>
+                <p class="description">${project.description}</p>
                 <ul class="middle">
                     <li class="back-link1 back-link">
                         <div class="link1">${project.technologies[0]}</div>
@@ -79,7 +78,7 @@ projectArr.forEach((project) => {
                         <div class="link3">${project.technologies[2]}</div>
                     </li>
                 </ul>
-                <button class="see-project1 project-buttons unique2">
+                <button class="see-project1 project-buttons">
                     <div class="see-project" id="sec2-project">See Project</div>
                 </button>
             </section>
@@ -87,6 +86,8 @@ projectArr.forEach((project) => {
 });
 
 worksSection.innerHTML = html;
+
+const projectButtons = document.querySelectorAll('.project-buttons');
 
 for (let index = 0; index < projectButtons.length; index++) {
     projectButtons[index].addEventListener('click', () => {

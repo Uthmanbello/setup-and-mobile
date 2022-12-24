@@ -220,7 +220,55 @@
 }
 
 .section {
-  height: 718px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 32px;
+  box-sizing: border-box;
+  width: 90%;
+  margin: auto auto 36px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.section > * {
+  box-sizing: border-box;
+}
+
+.section img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.section .desktop-img {
+  display: none;
+}
+
+.section .head2 {
+  margin: 12px 0;
+}
+
+.section .up1 {
+  margin: 14px 0;
+  padding: 0;
+  width: auto;
+  justify-content: space-between;
+  max-width: 80%;
+}
+
+.section .middle {
+  margin: 0;
+  width: auto;
+  justify-content: unset;
+  gap: 12px;
+  padding: 0;
+}
+
+.section .middle .back-link {
+  margin: 0;
+}
+
+.section .project-buttons {
+  margin-left: 0;
 }
 
 .counter {
@@ -296,8 +344,6 @@
   gap: 12px;
   height: 596px;
   background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -505,7 +551,6 @@
 }
 
 .section3 {
-  height: 779px;
   background-image: url(images/Contact\ me.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -524,27 +569,21 @@
   color: #fff;
   padding-left: 60px;
   padding-top: 70px;
-  order: 0;
 }
 
 .infol {
-  position: absolute;
-  height: 102px;
-  left: 24px;
-  top: 4802px;
+  width: 90%;
+  margin: auto;
   font-style: normal;
   font-weight: 400;
   font-size: 1.25em;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  margin-top: 210px;
-  order: 1;
 }
 
 .form {
-  order: 2;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .cont1 {
@@ -620,19 +659,11 @@
   flex-direction: row;
   align-items: center;
   padding: 12px 16px;
-  position: absolute;
   width: 120px;
   height: 50px;
-  left: 24px;
-  top: 5317px;
   background: #fff;
   border-radius: 8px;
-  margin-left: 5px;
-  margin-top: 200px;
-}
-
-.submit-unique {
-  margin-left: 86px;
+  margin: 24px 8px;
 }
 
 .get-in-touch-txt {
@@ -701,10 +732,6 @@
 
 .unique-v {
   margin-left: 80px;
-}
-
-.unique-u {
-  margin-top: 190px;
 }
 
 .see-project1:hover {
@@ -833,13 +860,29 @@ body {
   }
 
   .section {
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 24px;
-    width: 1156px;
-    height: 400px;
-    margin-left: 71px;
-    margin-bottom: 300px;
+    flex-direction: row;
+    gap: 5%;
+  }
+
+  .section:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+
+  .section section:first-child {
+    flex-basis: 45%;
+  }
+
+  .section section:last-child {
+    flex-basis: 45%;
+  }
+
+  .section .desktop-img {
+    display: block;
+  }
+
+  
+  .section .up1 {
+    max-width: 300px;
   }
 
   .status {
@@ -1020,12 +1063,13 @@ body {
 
   .langd {
     position: absolute;
-    left: 560px;
-    bottom: -3832px;
+    top: 100px;
+    width: 35%;
+    left: 60%;
   }
 
   .rule {
-    width: 720px;
+    width: 100%;
   }
 
   .languages {
@@ -1054,7 +1098,7 @@ body {
 
   .spaced-unique {
     position: absolute;
-    left: 470px;
+    left: 170px;
   }
 
   .unique-w {
@@ -1099,7 +1143,6 @@ body {
 
   .section3 {
     width: 100%;
-    height: 779px;
     background-image: url(images/contact\ form\ background\ shapes@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -1115,7 +1158,12 @@ body {
   }
 
   .aboutd {
+    position: relative;
     margin-left: -200px;
+  }
+  
+  .langd {
+     
   }
 
   .hl {
@@ -1123,26 +1171,22 @@ body {
   }
 
   .infol {
-    margin-left: 380px;
-    margin-top: -95px;
     width: 550px;
   }
 
   .form {
-    margin-top: 90px;
-    width: 1440px;
-    margin-left: 950px;
+    margin: 50px auto;
+    width: 50%;
   }
 
   .cont1,
   .email,
   .comment {
-    width: 447px;
+    width: 100%;
   }
 
   .get-in-touch {
-    margin-left: 580px;
-    margin-top: -160px;
+   margin: 24px auto;
   }
 
   .scale1:hover {
@@ -1232,6 +1276,17 @@ a {
   margin: 70px auto;
   padding: 5px 15px 30px;
   box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.popup-content .popup-close {
+  font-size: 2rem;
+  margin-right: 12px;
+}
+
+.popup-image {
+  max-width: 100%;
+  width: 100%;
 }
 
 .popup-text {
