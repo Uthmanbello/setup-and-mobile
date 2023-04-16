@@ -1,7 +1,7 @@
 const projectArr = [
     {
         id: 0,
-        title: 'De Royale Institute App',
+        title: 'De Royale Institute',
         details: ['CANOPY', 'Front End Dev', 2023],
         image: 'images/Screenshot sec 1 desk(e).png',
         desktopImage: 'images/Screenshot sec 1 desk(e).png',
@@ -12,36 +12,36 @@ const projectArr = [
     },
     {
         id: 1,
-        title: 'Multi-Post Stories',
-        details: ['CANOPY', 'Back End Dev', 2015],
-        image: 'images/Snapshoot Portfolio (1).png',
-        desktopImage: 'images/section 3 desk.png',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+        title: 'The 100 Series',
+        details: ['CANOPY', 'Front End Dev', 2023],
+        image: 'images/Screenshot 100 series app portfolio(1).png',
+        desktopImage: 'images/Screenshot 100 series app portfolio(1).png',
+        description: "A single page application built with JavaScript which interacts with two APIs. It is an app wherein users can 'like' respective seasons of 'The 100' series, add comments and reservations too.",
         technologies: ['html', 'css', 'javaScript'],
-        live: 'https://uthmanbello.github.io/setup-and-mobile/',
-        source: 'https://github.com/Uthmanbello/setup-and-mobile'
+        live: 'https://uthmanbello.github.io/capstone2/dist',
+        source: 'https://github.com/Uthmanbello/capstone2'
     },
     {
         id: 2,
-        title: 'Tonic',
-        details: ['CANOPY', 'Back End Dev', 2015],
-        image: 'images/Snapshoot Portfolio (2).png',
-        desktopImage: 'images/section 4 desk.png',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        technologies: ['html', 'css', 'javaScript'],
-        live: 'https://uthmanbello.github.io/setup-and-mobile/',
-        source: 'https://github.com/Uthmanbello/setup-and-mobile'
+        title: 'Bookstore',
+        details: ['CANOPY', 'Front End Dev', 2023],
+        image: 'images/Screenshot bookstore portfolio(1).png',
+        desktopImage: 'images/Screenshot bookstore portfolio(1).png',
+        description: 'Bookstore is a project that uses a Single Page Application format to display items on a page. A user can switch to two pages wherein one displays the titles and authors of books, and also a form to add a new book.',
+        technologies: ['html', 'React', 'Redux'],
+        live: 'https://bookstore-17ah.onrender.com/',
+        source: 'https://github.com/Uthmanbello/bookstore'
     },
     {
         id: 3,
-        title: 'Multi-Post Stories',
-        details: ['CANOPY', 'Back End Dev', 2015],
+        title: 'Weather App',
+        details: ['CANOPY', 'Front End Dev', 2023],
         image: 'images/Snapshoot Portfolio (3).png',
         desktopImage: 'images/section 5 desk.png',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        technologies: ['html', 'css', 'javaScript'],
-        live: 'https://uthmanbello.github.io/Capstone1/',
-        source: 'https://github.com/Uthmanbello/Capstone1'
+        description: 'Weather App is a project that uses a Single Page Application format to display items on a page. A user can access different weather information by simply clicking on the relevant category.',
+        technologies: ['html', 'React', 'Redux'],
+        live: 'https://weather-app-1unw.onrender.com/',
+        source: 'https://github.com/Uthmanbello/metrics-webapp'
     }
 ]
 
