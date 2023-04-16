@@ -178,45 +178,12 @@
 }
 
 .link1 {
-  width: 29px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
   height: 16px;
-  font-style: normal;
-  font-weight: 500;
   font-size: 0.75em;
-  line-height: 16px;
-  letter-spacing: 0.03em;
   color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.link2 {
-  width: 21px;
-  height: 16px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.75em;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.link3 {
-  width: 65px;
-  height: 16px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.75em;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .section {
@@ -286,6 +253,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 4px 12px;
   height: 24px;
   background: #ebebff;
@@ -302,6 +270,7 @@
 
 .section .project-buttons {
   margin-left: 0;
+  color: #6070ff;
 }
 
 .counter {

@@ -28,7 +28,7 @@ const projectArr = [
         image: 'images/Screenshot bookstore portfolio(1).png',
         desktopImage: 'images/Screenshot bookstore portfolio(1).png',
         description: 'Bookstore is a project that uses a Single Page Application format to display items on a page. A user can switch to two pages wherein one displays the titles and authors of books, and also a form to add a new book.',
-        technologies: ['html', 'React', 'Redux'],
+        technologies: ['html', 'css', 'react/redux'],
         live: 'https://bookstore-17ah.onrender.com/',
         source: 'https://github.com/Uthmanbello/bookstore'
     },
@@ -39,7 +39,7 @@ const projectArr = [
         image: 'images/Snapshoot Portfolio (3).png',
         desktopImage: 'images/section 5 desk.png',
         description: 'Weather App is a project that uses a Single Page Application format to display items on a page. A user can access different weather information by simply clicking on the relevant category.',
-        technologies: ['html', 'React', 'Redux'],
+        technologies: ['html', 'css', 'react/redux'],
         live: 'https://weather-app-1unw.onrender.com/',
         source: 'https://github.com/Uthmanbello/metrics-webapp'
     }
@@ -73,14 +73,14 @@ projectArr.forEach((project) => {
                         <div class="link1">${project.technologies[0]}</div>
                     </li>
                     <li class="back-link2 back-link">
-                        <div class="link2">${project.technologies[1]}</div>
+                        <div class="link1">${project.technologies[1]}</div>
                     </li>
                     <li class="back-link3 back-link">
-                        <div class="link3">${project.technologies[2]}</div>
+                        <div class="link1">${project.technologies[2]}</div>
                     </li>
                 </ul>
-                <button class="see-project1 project-buttons">
-                    <div class="see-project" id="sec2-project">See Project</div>
+                <button class="see-project1 project-buttons" id="sec2-project">
+                    See Project
                 </button>
             </section>
     </section>`;
