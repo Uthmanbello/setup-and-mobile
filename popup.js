@@ -100,6 +100,7 @@ for (let index = 0; index < projectButtons.length; index++) {
         img.src = projectArr[index].image;
         img.srcset = projectArr[index].desktopImage
         popup.classList.remove('d-none')
+        document.body.style.overflowY = 'hidden';
     })
     
 }
@@ -107,14 +108,17 @@ for (let index = 0; index < projectButtons.length; index++) {
 resumeButton.addEventListener('click', () => {
     const title = popup.querySelector('.res-popup-title');
     resumePopup.classList.remove('d-none')
+    document.body.style.overflowY = 'hidden';
 })
 
 const resBtnClosePopup = document.querySelector('.res-popup-close');
 resBtnClosePopup.addEventListener('click', () => {
     resumePopup.classList.add('d-none');
+    document.body.style.overflowY = 'auto';
 })
 
 const btnClosePopup = document.querySelector('.popup-close');
 btnClosePopup.addEventListener('click', () => {
     popup.classList.add('d-none');
+    document.body.style.overflowY = 'auto';
 })
