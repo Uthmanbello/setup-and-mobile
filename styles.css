@@ -184,6 +184,7 @@
   height: 16px;
   font-size: 0.75em;
   color: #6070ff;
+  font-style: normal;
 }
 
 .section {
@@ -201,6 +202,13 @@
   box-sizing: border-box;
 }
 
+.card-image {
+  box-sizing: border-box;
+  padding: 20px;
+  height: 60vh;
+  border-radius: 15px;
+  background-color: #f3ecec;
+}
 .section img {
   max-width: 100%;
   width: 100%;
@@ -832,6 +840,7 @@ body {
 
   .section .desktop-img {
     display: block;
+    padding-top: 20px;
   }
 
   .up1 {
@@ -1332,7 +1341,13 @@ a {
   }
 
   .resume-img {
-    width: 100%;
+    width: 70%;
+    padding: auto;
+  }
+
+  .resume-img-wrap {
+    display: flex;
+    justify-content: center;
   }
 
   .btn-space {

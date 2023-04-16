@@ -36,8 +36,8 @@ const projectArr = [
         id: 3,
         title: 'Weather App',
         details: ['CANOPY', 'Front End Dev', 2023],
-        image: 'images/Snapshoot Portfolio (3).png',
-        desktopImage: 'images/section 5 desk.png',
+        image: 'images/Screenshot weather app portfolio(1).png',
+        desktopImage: 'images/Screenshot weather app portfolio(1).png',
         description: 'Weather App is a project that uses a Single Page Application format to display items on a page. A user can access different weather information by simply clicking on the relevant category.',
         technologies: ['html', 'css', 'react/redux'],
         live: 'https://weather-app-1unw.onrender.com/',
@@ -54,7 +54,7 @@ let html = '';
 projectArr.forEach((project) => {
     html += `
     <section class="section">
-            <section>
+            <section class="card-image">
                 <img src="${project.image}" alt="tonic"  class="status mobile-img">
                 <img src="${project.desktopImage}" class="desktop-img">
             </section>
