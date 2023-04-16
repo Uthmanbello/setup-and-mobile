@@ -1147,6 +1147,7 @@ body {
     background-size: contain;
     margin-top: 100px;
     background-color: #6070ff;
+    border-top-left-radius: 15%;
     margin-left: 0;
   }
 
