@@ -7,8 +7,8 @@ const projectArr = [
         desktopImage: 'images/Screenshot sec 1 desk(e).png',
         description: 'A web/mobile app for a tech institute which offers different couses annually',
         technologies: ['html', 'css', 'javaScript'],
-        live: 'https://uthmanbello.github.io/setup-and-mobile/',
-        source: 'https://github.com/Uthmanbello/setup-and-mobile'
+        live: 'https://uthmanbello.github.io/Capstone1/',
+        source: 'https://github.com/Uthmanbello/Capstone1'
     },
     {
         id: 1,
@@ -40,8 +40,8 @@ const projectArr = [
         desktopImage: 'images/section 5 desk.png',
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
         technologies: ['html', 'css', 'javaScript'],
-        live: 'https://uthmanbello.github.io/setup-and-mobile/',
-        source: 'https://github.com/Uthmanbello/setup-and-mobile'
+        live: 'https://uthmanbello.github.io/Capstone1/',
+        source: 'https://github.com/Uthmanbello/Capstone1'
     }
 ]
 
@@ -94,11 +94,25 @@ const resumeButton = document.querySelector('.resume')
 for (let index = 0; index < projectButtons.length; index++) {
     projectButtons[index].addEventListener('click', () => {
         const title = popup.querySelector('.popup-title');
+        const detail1 = popup.querySelector('.p1')
+        const detail2 = popup.querySelector('.p2')
+        const detail3 = popup.querySelector('.p3')
+        const projDecscription = popup.querySelector('.popup-desc');
+        const liveButton = popup.querySelector('.see-live');
+        const sourceButton = popup.querySelector('.see-source');
         const img = popup.querySelector('img');
+
         title.textContent = projectArr[index].title;
+        detail1.textContent = projectArr[index].details[0];
+        detail2.textContent = projectArr[index].details[1];
+        detail3.textContent = projectArr[index].details[2];
+        projDecscription.textContent = projectArr[index].description;
+        liveButton.setAttribute('href', projectArr[index].live);
+        sourceButton.setAttribute('href', projectArr[index].source);
 
         img.src = projectArr[index].image;
         img.srcset = projectArr[index].desktopImage
+        
         popup.classList.remove('d-none')
         document.body.style.overflowY = 'hidden';
     })

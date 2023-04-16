@@ -137,7 +137,7 @@
 }
 
 .p2 {
-  width: 88px;
+  width: 100px;
   height: 16px;
   font-style: normal;
   font-weight: 600;
@@ -1253,7 +1253,6 @@ a {
   width: 100vw;
   height: 100vh;
   background-color: #2c2c2cd0;
-  /* overflow-y: scroll; */
   overflow-y: auto;
 }
 
@@ -1303,10 +1302,12 @@ a {
 
 .popup-btn {
   padding-right: -20%;
+  color: #6070ff;
 }
 
 .popup-btn2 {
-  padding: 0;
+  padding-right: -10%;
+  color: #6070ff;
 }
 
 .lang-popup {
