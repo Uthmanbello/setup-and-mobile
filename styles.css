@@ -1184,6 +1184,11 @@ body {
     margin: 24px auto;
   }
 
+  .validation-message {
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
   .scale1:hover {
     transform: scale(1.1);
   }
