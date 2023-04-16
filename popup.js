@@ -47,6 +47,7 @@ const projectArr = [
 
 const popup = document.querySelector('.popup');
 const worksSection = document.querySelector('.works');
+const resumePopup = document.querySelector('.res-popup');
 
 let html = '';
 
@@ -88,6 +89,7 @@ projectArr.forEach((project) => {
 worksSection.innerHTML = html;
 
 const projectButtons = document.querySelectorAll('.project-buttons');
+const resumeButton = document.querySelector('.resume')
 
 for (let index = 0; index < projectButtons.length; index++) {
     projectButtons[index].addEventListener('click', () => {
@@ -101,6 +103,16 @@ for (let index = 0; index < projectButtons.length; index++) {
     })
     
 }
+
+resumeButton.addEventListener('click', () => {
+    const title = popup.querySelector('.res-popup-title');
+    resumePopup.classList.remove('d-none')
+})
+
+const resBtnClosePopup = document.querySelector('.res-popup-close');
+resBtnClosePopup.addEventListener('click', () => {
+    resumePopup.classList.add('d-none');
+})
 
 const btnClosePopup = document.querySelector('.popup-close');
 btnClosePopup.addEventListener('click', () => {
