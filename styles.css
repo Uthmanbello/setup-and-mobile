@@ -1004,12 +1004,10 @@ body {
   }
 
   .section2d {
-    background-image: url("images/about\ myself\ -\ background-\ shape-\ desktop.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
     width: 100%;
     display: flex;
     padding-left: 0;
+    margin-top: -180px;
     box-sizing: border-box;
   }
 
@@ -1063,6 +1061,25 @@ body {
     justify-content: space-between;
     width: 32vw;
   }
+
+  .list-button {
+    border: none;
+    background-color: white;
+    padding: 0;
+  }
+
+  .skill-list {
+    max-width: 500px;
+  }
+
+  .list-display {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
   .spaced {
     margin-left: 400px;
   }

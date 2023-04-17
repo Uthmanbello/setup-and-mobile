@@ -108,6 +108,9 @@ for (let index = 0; index < projectButtons.length; index++) {
         const detail1 = popup.querySelector('.p1')
         const detail2 = popup.querySelector('.p2')
         const detail3 = popup.querySelector('.p3')
+        const tech1 = popup.querySelector('.tech1')
+        const tech2 = popup.querySelector('.tech2')
+        const tech3 = popup.querySelector('.tech3')
         const projDecscription = popup.querySelector('.popup-desc');
         const liveButton = popup.querySelector('.see-live');
         const sourceButton = popup.querySelector('.see-source');
@@ -117,6 +120,9 @@ for (let index = 0; index < projectButtons.length; index++) {
         detail1.textContent = projectArr[index].details[0];
         detail2.textContent = projectArr[index].details[1];
         detail3.textContent = projectArr[index].details[2];
+        tech1.textContent = projectArr[index].technologies[0];
+        tech2.textContent = projectArr[index].technologies[1];
+        tech3.textContent = projectArr[index].technologies[2];
         projDecscription.textContent = projectArr[index].description;
         liveButton.setAttribute('href', projectArr[index].live);
         sourceButton.setAttribute('href', projectArr[index].source);
