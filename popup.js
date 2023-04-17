@@ -42,6 +42,17 @@ const projectArr = [
         technologies: ['html', 'css', 'react/redux'],
         live: 'https://weather-app-1unw.onrender.com/',
         source: 'https://github.com/Uthmanbello/metrics-webapp'
+    },
+    {
+        id: 4,
+        title: 'Math Magicians',
+        details: ['CANOPY', 'Front End Dev', 2023],
+        image: 'images/Screenshot math magicians portfolio(1).png',
+        desktopImage: 'images/Screenshot math magicians portfolio(1).png',
+        description: 'Math Magician is a project that uses a Single Page Application format to display items on a page. A user can switch to a page where a live calculator which can be used for computation is.',
+        technologies: ['html', 'css', 'javascript'],
+        live: 'https://math-magicians-3rc8.onrender.com/',
+        source: 'https://github.com/Uthmanbello/math-magicians'
     }
 ]
 

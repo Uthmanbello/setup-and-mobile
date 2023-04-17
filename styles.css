@@ -16,9 +16,6 @@
   display: flex;
   align-items: center;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   padding-top: 114px;
   margin-left: 10px;
 }
@@ -202,13 +199,6 @@
   box-sizing: border-box;
 }
 
-.card-image {
-  box-sizing: border-box;
-  padding: 20px;
-  height: 60vh;
-  border-radius: 15px;
-  background-color: #f3ecec;
-}
 .section img {
   max-width: 100%;
   width: 100%;
@@ -840,7 +830,20 @@ body {
 
   .section .desktop-img {
     display: block;
-    padding-top: 20px;
+    width: 100%;
+    height: 90%;
+
+  }
+
+  .card-image {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 60vh;
+    border-radius: 15px;
+    background-color: #f3ecec;
   }
 
   .up1 {
@@ -1005,6 +1008,9 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
+    display: flex;
+    padding-left: 0;
+    box-sizing: border-box;
   }
 
   .info11d {
@@ -1024,10 +1030,8 @@ body {
   }
 
   .langd {
-    position: absolute;
-    top: 100px;
-    width: 35%;
-    left: 60%;
+    margin-left: -300px;
+    padding-top: 200px;
   }
 
   .rule {
@@ -1054,17 +1058,17 @@ body {
     visibility: visible;
   }
 
+  .frame {
+    display: flex;
+    justify-content: space-between;
+    width: 32vw;
+  }
   .spaced {
-    margin-right: -800px;
+    margin-left: 400px;
   }
 
   .spaced-unique {
-    position: absolute;
-    left: 170px;
-  }
-
-  .unique-w {
-    left: 542px;
+    padding-left: 170px;
   }
 
   .unique3 {
@@ -1121,8 +1125,7 @@ body {
   }
 
   .aboutd {
-    position: relative;
-    margin-left: -200px;
+    margin-left: -200px; 
   }
 
   .hl {
