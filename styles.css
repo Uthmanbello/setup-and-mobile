@@ -832,7 +832,6 @@ body {
     display: block;
     width: 100%;
     height: 90%;
-
   }
 
   .card-image {
@@ -1142,7 +1141,7 @@ body {
   }
 
   .aboutd {
-    margin-left: -200px; 
+    margin-left: -200px;
   }
 
   .hl {
@@ -1173,6 +1172,7 @@ body {
     display: flex;
     justify-content: center;
   }
+
   .scale1:hover {
     transform: scale(1.1);
   }
