@@ -16,9 +16,6 @@
   display: flex;
   align-items: center;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   padding-top: 114px;
   margin-left: 10px;
 }
@@ -137,7 +134,7 @@
 }
 
 .p2 {
-  width: 88px;
+  width: 100px;
   height: 16px;
   font-style: normal;
   font-weight: 600;
@@ -178,45 +175,13 @@
 }
 
 .link1 {
-  width: 29px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
   height: 16px;
-  font-style: normal;
-  font-weight: 500;
   font-size: 0.75em;
-  line-height: 16px;
-  letter-spacing: 0.03em;
   color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.link2 {
-  width: 21px;
-  height: 16px;
   font-style: normal;
-  font-weight: 500;
-  font-size: 0.75em;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.link3 {
-  width: 65px;
-  height: 16px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.75em;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .section {
@@ -286,6 +251,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 4px 12px;
   height: 24px;
   background: #ebebff;
@@ -302,6 +268,7 @@
 
 .section .project-buttons {
   margin-left: 0;
+  color: #6070ff;
 }
 
 .counter {
@@ -466,6 +433,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  color: #6070ff;
   padding: 12px;
   gap: 10px;
   width: 162px;
@@ -477,23 +446,6 @@
   flex-grow: 0;
   background-color: white;
   margin-left: 10px;
-}
-
-.text-resume {
-  width: 138px;
-  height: 24px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.0625em;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .lang {
@@ -878,6 +830,19 @@ body {
 
   .section .desktop-img {
     display: block;
+    width: 100%;
+    height: 90%;
+  }
+
+  .card-image {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 60vh;
+    border-radius: 15px;
+    background-color: #f3ecec;
   }
 
   .up1 {
@@ -1038,10 +1003,11 @@ body {
   }
 
   .section2d {
-    background-image: url("images/about\ myself\ -\ background-\ shape-\ desktop.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
     width: 100%;
+    display: flex;
+    padding-left: 0;
+    margin-top: -180px;
+    box-sizing: border-box;
   }
 
   .info11d {
@@ -1061,10 +1027,8 @@ body {
   }
 
   .langd {
-    position: absolute;
-    top: 100px;
-    width: 35%;
-    left: 60%;
+    margin-left: -300px;
+    padding-top: 200px;
   }
 
   .rule {
@@ -1091,17 +1055,36 @@ body {
     visibility: visible;
   }
 
+  .frame {
+    display: flex;
+    justify-content: space-between;
+    width: 32vw;
+  }
+
+  .list-button {
+    border: none;
+    background-color: white;
+    padding: 0;
+  }
+
+  .skill-list {
+    max-width: 500px;
+  }
+
+  .list-display {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
   .spaced {
-    margin-right: -800px;
+    margin-left: 400px;
   }
 
   .spaced-unique {
-    position: absolute;
-    left: 170px;
-  }
-
-  .unique-w {
-    left: 542px;
+    padding-left: 170px;
   }
 
   .unique3 {
@@ -1147,6 +1130,7 @@ body {
     background-size: contain;
     margin-top: 100px;
     background-color: #6070ff;
+    border-top-left-radius: 15%;
     margin-left: 0;
   }
 
@@ -1157,7 +1141,6 @@ body {
   }
 
   .aboutd {
-    position: relative;
     margin-left: -200px;
   }
 
@@ -1182,6 +1165,12 @@ body {
 
   .get-in-touch {
     margin: 24px auto;
+  }
+
+  .validation-message {
+    color: white;
+    display: flex;
+    justify-content: center;
   }
 
   .scale1:hover {
@@ -1262,7 +1251,7 @@ a {
   width: 100vw;
   height: 100vh;
   background-color: #2c2c2cd0;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .popup-content {
@@ -1311,10 +1300,12 @@ a {
 
 .popup-btn {
   padding-right: -20%;
+  color: #6070ff;
 }
 
 .popup-btn2 {
-  padding: 0;
+  padding-right: -10%;
+  color: #6070ff;
 }
 
 .lang-popup {
@@ -1367,6 +1358,16 @@ a {
 
   .lang-popup {
     padding-top: 16px;
+  }
+
+  .resume-img {
+    width: 70%;
+    padding: auto;
+  }
+
+  .resume-img-wrap {
+    display: flex;
+    justify-content: center;
   }
 
   .btn-space {
