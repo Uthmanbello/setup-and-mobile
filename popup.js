@@ -53,6 +53,17 @@ const projectArr = [
         technologies: ['html', 'css', 'javascript'],
         live: 'https://math-magicians-3rc8.onrender.com/',
         source: 'https://github.com/Uthmanbello/math-magicians'
+    },
+    {
+        id: 5,
+        title: 'Tutoring App',
+        details: ['CANOPY', 'Full Stack Dev', 2023],
+        image: 'images/Screenshot Tutoring app portfolio.png',
+        desktopImage: 'images/Screenshot Tutoring app portfolio.png',
+        description: 'Tutoring App is a single page app that enables users to effortlessly manage classes, including adding, deleting, and viewing class details. It also provides reservation functionality, allowing users to make reservations and view their reservation details.',
+        technologies: ['ruby', 'rails', 'react'],
+        live: 'https://tutoring-front-end.onrender.com/',
+        source: 'https://github.com/Uthmanbello/tutoring-app-frontend'
     }
 ]
 
