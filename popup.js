@@ -64,6 +64,17 @@ const projectArr = [
         technologies: ['ruby', 'rails', 'react'],
         live: 'https://tutoring-front-end.onrender.com/',
         source: 'https://github.com/Uthmanbello/tutoring-app-frontend'
+    },
+    {
+        id: 6,
+        title: "Space Travellers' Hub",
+        details: ['CANOPY', 'Front End Dev', 2023],
+        image: 'images/Screenshot Space Traveller portfolio.png',
+        desktopImage: 'images/Screenshot Space Traveller portfolio.png',
+        description: "Space Travellers' Hub is a project where we worked with real live data from the SpaceX API. We build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
+        technologies: ['html', 'css', 'javascript'],
+        live: 'https://space-travellers-hub-ns1r.onrender.com/',
+        source: 'https://github.com/Uthmanbello/react_group_project'
     }
 ]
 
